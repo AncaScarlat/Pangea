@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16.3vw;
+  width: 83.7%;
+}
+
+#marker {
+  background-image: url('https://i.ibb.co/qRTfZc4/marker.png');
+  background-size: cover;
+  width: 3.5vh;
+  height: 5.1vh;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+  width: 25vw;
+}
+
+.side-menu {
+  font-family: 'Helvetica Neue', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 16vw;
+  list-style-type: none;
+  background: linear-gradient(135deg, #fe8e7d, #ffd15d);
+  box-shadow: 0.15rem 0 0.5rem #888888;
+  overflow: hidden;
+}
+
+.side-menu li a img {
+  width: 7rem;
+  padding-top: 4vh;
+}
+
+.side-menu li a {
+  display: block;
+  font-size: 1.4rem;
+  text-shadow: 0.11rem 0.07rem 0.2rem rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  color: #fff1e2;
+  padding: 7vh 0 7vh 0;
+  text-align: center;
+}
+
+.side-menu li a:hover {
+  background: #001d2d;
+}
